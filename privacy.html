@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gizlilik Politikası / Privacy Policy — ZenitMC 2FA Bot</title>
+  <meta name="description" content="ZenitMC 2FA Bot Gizlilik Politikası / Privacy Policy">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="inner">
+      <a href="index.html">ZenitMC 2FA Bot</a>
+      <nav>
+        <a href="terms.html">Hizmet Koşulları / Terms of Service</a>
+        <a href="privacy.html">Gizlilik Politikası / Privacy Policy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== TÜRKÇE ===================== -->
+    <article class="card" id="tr" lang="tr">
+      <a class="lang-switch" href="#en">🇬🇧 English version below</a>
+      <h1>Gizlilik Politikası</h1>
+      <p class="meta">Yürürlük tarihi: 26 Ekim 2026 · Son güncelleme: 26 Ekim 2026</p>
+
+      <p>
+        Bu Gizlilik Politikası, ZenitMC ekibi (“biz”) tarafından işletilen <strong>ZenitMC 2FA Bot</strong>
+        (“Bot”) adlı Discord uygulamasının hangi verileri işlediğini, bu verileri nasıl kullandığını,
+        nerede sakladığını ve verileriniz üzerindeki haklarınızı açıklar. Bot, ZenitMC Minecraft sunucusunda çalışan ve Buhari Yazılım
+        tarafından geliştirilen CEP (CapeEslePro) eklentisi aracılığıyla çalışır; Minecraft hesabınızı Discord hesabınızla eşler, eşlenmiş
+        hesaplar için IP adresi tabanlı iki faktörlü doğrulama (2FA) sağlar ve oyun ile Discord arasında sohbet, kayıt ve komut aktarımı
+        yapar. Bot’un bulunduğu sunucuyu veya Bot’un özelliklerini kullanarak bu politikayı kabul etmiş olursunuz.
+      </p>
+
+      <h2>1. İşlediğimiz veriler</h2>
+      <p>Bot yalnızca hesap eşleme, 2FA ve sunucu yönetimi için gerekli verileri işler:</p>
+      <table>
+        <tr><th>Veri</th><th>Ne zaman / kimden</th></tr>
+        <tr>
+          <td><strong>Hesap eşleme kaydı</strong> — Discord kullanıcı ID’si, Minecraft kullanıcı adı, eşleme tarihi/zamanı</td>
+          <td>Hesabını eşleyen oyunculardan. Eşleme, oyunda <code>/hesapesle</code> ile alınan kodun Discord’daki eşleme menüsüne
+            girilmesiyle oluşturulur. Eşleme kodu yalnızca bu eşleştirme için kullanılır.</td>
+        </tr>
+        <tr>
+          <td><strong>2FA durumu</strong> — 2FA modunun açık/kapalı olduğu bilgisi</td>
+          <td>Eşlenmiş hesabında 2FA’yı açan veya kapatan oyunculardan; ayrıca yetkililer bir oyuncunun 2FA modunu değiştirdiğinde.</td>
+        </tr>
+        <tr>
+          <td><strong>IP adresi</strong></td>
+          <td>2FA açık olan oyuncular için: oyuna girişte kullanılan IP adresi, hesaba kayıtlı (doğrulanmış) IP adresleriyle karşılaştırılır.
+            Kayıtlı olmayan bir IP adresinden giriş engellenir; bu IP, Discord özel mesajındaki butona tıklanarak doğrulandığında hesabınız
+            için kayıtlı hâle gelir.</td>
+        </tr>
+        <tr>
+          <td><strong>Discord üyelik bilgileri</strong> — roller, takma ad, sunucu takviyesi (boost) durumu</td>
+          <td>Hesabını eşleyen üyelerden: eşlemede tanımlı roller verilir ve takma ad <code>Discord adı | Minecraft adı</code> biçiminde
+            düzenlenir. Grup/rol eşitleme etkinse oyun içi grubunuza (ör. VIP) karşılık gelen rol verilir veya geri alınır. Eşlenmiş
+            oyuncunun sunucuya takviye yapıp yapmadığı bilgisi oyun içinde gösterilebilir.</td>
+        </tr>
+        <tr>
+          <td><strong>Oyun sohbeti ve giriş/çıkışlar</strong></td>
+          <td>Oyun sohbetine yazılan mesajlar ve oyuna giren/çıkan oyuncular, bu özellik açıksa ZenitMC Discord sunucusundaki bir kanala
+            aktarılır.</td>
+        </tr>
+        <tr>
+          <td><strong>Kayıt (log) mesajları</strong></td>
+          <td>Hesap eşleme işlemleri, Discord’dan <code>/komut</code> ile oyuna gönderilen komutlar ve (etkinleştirilmişse) sunucu konsol
+            kayıtları, yalnızca yetkililerin erişebildiği Discord kanallarına aktarılır. Konsol kayıtları, sunucu konsolunda görünen
+            bilgileri içerir.</td>
+        </tr>
+      </table>
+
+      <h3>Discord izinleri</h3>
+      <p>
+        CEP eklentisinin kurulumu gereği Bot’ta Discord’un <em>Presence</em>, <em>Server Members</em> ve <em>Message Content</em>
+        ayrıcalıklı izinleri açıktır. Bot bu izinleri eşleme, rol/takma ad yönetimi ve komutlar gibi yukarıda açıklanan özellikler için
+        kullanır. Belgelenen özelliklerin hiçbiri Discord sunucusundaki mesajlarınızın içeriğini veya çevrimiçi durum/etkinlik
+        bilgilerinizi saklamaz; bu politikada sayılan veriler dışında Discord verisi kaydedilmez.
+      </p>
+
+      <h3>Gönderdiğimiz özel mesajlar (DM)</h3>
+      <p>
+        2FA açıkken hesabınıza kayıtlı olmayan bir IP adresinden oyuna girilmek istendiğinde Bot size bir doğrulama butonu içeren özel mesaj
+        gönderir. Bot bunun dışında size pazarlama veya duyuru amaçlı özel mesaj göndermez.
+      </p>
+
+      <h3>Toplamadığımız veriler</h3>
+      <p>
+        Bot; Minecraft veya Discord şifrenizi, e-posta adresinizi, ödeme bilgilerinizi veya hassas nitelikli kişisel verilerinizi toplamaz.
+        2FA için bir doğrulama uygulaması, telefon numarası veya yedek kod kullanılmaz; doğrulama yalnızca Discord özel mesajındaki buton
+        ile yapılır. Bot, verileri reklam, profilleme veya yapay zekâ eğitimi amacıyla kullanmaz.
+      </p>
+
+      <h2>2. Verileri kullanma amaçlarımız</h2>
+      <ul>
+        <li>Minecraft hesabınızı Discord hesabınızla eşlemek ve eşleme bilgilerinizi size (<code>/hesabım</code>) ve yetkililere
+          (<code>/hesapsorgula</code>, oyun içi yönetim komutları) göstermek,</li>
+        <li>2FA açıkken yalnızca doğruladığınız IP adreslerinden oyuna girilmesine izin vererek hesabınızı yetkisiz girişlere karşı korumak,</li>
+        <li>Eşlenen üyelere rol ve takma ad vermek, oyun içi grup ile Discord rollerini eşitlemek ve eşleme ödüllerini vermek,</li>
+        <li>Oyun sohbetini ve giriş/çıkışları Discord’a aktarmak, Bot durumunda sunucu bilgilerini göstermek,</li>
+        <li>Yetkililerin Discord’dan oyuna komut göndermesini sağlamak ve bu komutların kaydını tutmak,</li>
+        <li>Hesap eşleme ve komut kayıtları ile moderasyon yapmak, kötüye kullanımı tespit etmek, şikayet ve itirazları değerlendirmek.</li>
+      </ul>
+
+      <h2>3. Hukuki dayanak</h2>
+      <p>
+        Verileriniz, veri sorumlusu sıfatıyla ZenitMC ekibi tarafından 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK)
+        kapsamında işlenir. İşlemenin hukuki sebepleri şunlardır:
+      </p>
+      <ul>
+        <li><strong>Hizmetin sunulması</strong> (KVKK m.5/2-c): talep ettiğiniz hesap eşlemenin yapılması, açtığınız 2FA’nın
+          çalıştırılması (IP adresi kontrolü ve doğrulama mesajı), rol ve takma ad verilmesi ve bilgi komutlarına cevap verilmesi,</li>
+        <li><strong>Meşru menfaat</strong> (KVKK m.5/2-f): hesapların ve topluluğun güvenliğinin sağlanması, moderasyon, kötüye kullanımın
+          önlenmesi, oyun sohbetinin Discord’a aktarılması ve şikayet ile itirazların değerlendirilmesi için kayıt tutulması.</li>
+      </ul>
+      <p>
+        Avrupa Birliği’ndeki kullanıcılar için ilgili dayanaklar GDPR m.6(1)(b) ve m.6(1)(f)’dir.
+      </p>
+
+      <h2>4. Saklama yeri ve güvenlik</h2>
+      <ul>
+        <li><strong>Eklenti veritabanı:</strong> Hesap eşleme kayıtları, 2FA durumu ve 2FA için kayıtlı IP adresleri, CEP eklentisinin
+          veritabanında, bizim yönettiğimiz ZenitMC Minecraft sunucusu altyapısında saklanır. Bu veritabanı, eklenti ayarına göre sunucudaki
+          bir YAML dosyası veya bizim yönettiğimiz bir MySQL veritabanıdır.</li>
+        <li><strong>Discord kanalları:</strong> Aktarılan oyun sohbeti, giriş/çıkışlar, hesap eşleme kayıtları, komut kayıtları ve konsol
+          kayıtları ZenitMC Discord sunucusundaki kanallara Discord mesajı olarak gönderilir ve Discord altyapısında saklanır. Kayıt kanallarına
+          yalnızca yetkililer erişebilir.</li>
+        <li><strong>Discord üyeliği:</strong> Roller ve takma ad, Discord üzerinde üyeliğinize atanır.</li>
+        <li><strong>Eklenti API’si:</strong> CEP eklentisi, ZenitMC Minecraft sunucusunda kurulu diğer eklentilerin eşleme durumu, Discord ID’si,
+          eşleme zamanı ve 2FA durumu bilgilerine erişebilmesi için bir API sağlar. Bu bilgiler yalnızca bizim sunucumuzda çalışan eklentilerce,
+          bu politikadaki amaçlarla kullanılır.</li>
+      </ul>
+      <p>
+        Eklenti veritabanına, kayıt kanallarına ve Bot’un çalıştığı sunucuya erişim yalnızca Bot yöneticileri ve yetkili ekiple sınırlıdır.
+        Bot kimlik bilgileri gizli tutulur ve herkese açık hiçbir yerde paylaşılmaz. Makul teknik ve idari önlemler almamıza rağmen hiçbir
+        sistemin %100 güvenli olduğu garanti edilemez. Verilerinizi <strong>satmayız, kiralamayız</strong> ve reklam amaçlı üçüncü kişilerle
+        paylaşmayız.
+      </p>
+
+      <h2>5. Saklama süresi</h2>
+      <ul>
+        <li><strong>Hesap eşleme kaydı, 2FA durumu ve kayıtlı IP adresleri:</strong> Hesabınız eşli kaldığı sürece saklanır. Eşleme
+          kaldırıldığında veya silme talebinde bulunduğunuzda yetkililer tarafından silinir. Bot bu kayıtları belirli bir süre sonra otomatik
+          olarak silmez.</li>
+        <li><strong>Discord kanallarındaki mesajlar ve kayıtlar:</strong> Bot bu kayıtları <strong>otomatik olarak silmez</strong>.
+          Moderasyon, sunucu güvenliği ve şikayet/itiraz değerlendirmesi için gerekli olduğu sürece saklanır; silme talebinde bulunduğunuzda
+          veya artık gerekli olmadığında yetkililer tarafından elle silinir.</li>
+        <li><strong>Roller ve takma ad:</strong> Discord üyeliğinizde kalır; eşleme kaldırıldığında veya sunucudan ayrıldığınızda
+          yetkililer ya da Discord tarafından kaldırılır.</li>
+        <li><strong>Doğrulama mesajları:</strong> Sizin özel mesaj kutunuzda bulunur; dilediğiniz zaman silebilirsiniz.</li>
+        <li>Bot ZenitMC sunucusundan kaldırılır veya hizmet sonlandırılırsa eklenti verileri ve ilgili kayıtlar makul bir süre içinde silinir.</li>
+      </ul>
+
+      <h2>6. Verilerinizin silinmesi ve haklarınız</h2>
+      <p>
+        KVKK m.11 kapsamında; verilerinizin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltilmesini veya silinmesini isteme
+        ve kanunda sayılan diğer haklara sahipsiniz (AB’deki kullanıcılar için GDPR kapsamındaki haklar dahil). Kendi eşleme bilgilerinizi
+        Discord’da <code>/hesabım</code> komutuyla görebilir, 2FA’yı oyunda <code>/2fa off</code> ile kapatabilirsiniz. Diğer talepler için:
+      </p>
+      <ol>
+        <li><a href="mailto:almodria@zenitmc.com">almodria@zenitmc.com</a> adresine e-posta gönderin veya ZenitMC Discord sunucusunda
+          yöneticilerle iletişime geçin.</li>
+        <li>Discord kullanıcı adınızı, <strong>Discord kullanıcı ID’nizi</strong> ve <strong>Minecraft kullanıcı adınızı</strong> belirtin.</li>
+        <li>Talepler elle işlenir. Talebinizi doğruladıktan sonra hesap eşlemenizi ve eklenti veritabanındaki ilgili verilerinizi
+          (2FA durumu ve kayıtlı IP adresleri dahil) kaldırır, Discord kayıt kanallarındaki sizinle ilgili mesajları en geç
+          <strong>30 gün</strong> içinde siler ve sonucu size bildiririz.</li>
+      </ol>
+      <p>
+        Sunucudan ayrılmanız kayıtların otomatik olarak silinmesini sağlamaz; silme için yukarıdaki yolu kullanın. Devam eden bir
+        moderasyon işlemi, kötüye kullanımın önlenmesi veya yasal yükümlülükler için zorunlu olan asgari bilgileri yalnızca gerekli süre
+        boyunca saklayabiliriz. Discord’un kendi sistemlerinde tuttuğu veriler Discord’un politikalarına tabidir.
+      </p>
+
+      <h2>7. Üçüncü taraflar</h2>
+      <ul>
+        <li><strong>Discord:</strong> Bot, Discord platformu üzerinde çalışır ve tüm etkileşimler Discord API’si üzerinden gerçekleşir.
+          Discord kanallarına gönderilen kayıtlar Discord altyapısında, Türkiye dışındaki sunucularda saklanabilir. Discord’un verilerinizi
+          işleme şekli <a href="https://discord.com/privacy" rel="noopener">Discord Gizlilik Politikası</a>’na tabidir.</li>
+        <li><strong>CEP eklentisi (Buhari Yazılım):</strong> Bot’un altyapısını oluşturan CEP eklentisi ve gerekli CEP-DiscordAPI bileşeni,
+          Buhari Yazılım tarafından geliştirilmiştir ve bizim yönettiğimiz ZenitMC Minecraft sunucusunda çalışır. Bot’u ve verileri ZenitMC
+          ekibi yönetir; verilerinizi eklenti geliştiricisiyle paylaşmayız.</li>
+        <li><strong>ZenitMC Minecraft sunucusu ve eklentileri:</strong> Hesap eşleme, 2FA, grup/rol eşitleme, ödüller ve Bot durumu için
+          bizim işlettiğimiz Minecraft sunucusundaki veriler (ör. oyun içi grup, çevrimiçi oyuncu sayısı) kullanılır. Bot durumunda gösterilen
+          sunucu bilgileri PlaceholderAPI eklentisi aracılığıyla alınabilir.</li>
+        <li><strong>Barındırma:</strong> Bot ve eklenti veritabanı, bizim yönettiğimiz sunucu altyapısında çalışır.</li>
+      </ul>
+      <p>Bunların dışında hiçbir üçüncü taraf analiz, reklam veya veri işleme hizmeti kullanılmaz.</p>
+
+      <h2>8. Yaş sınırı</h2>
+      <p>
+        Bot’u kullanabilmek için Discord’un <a href="https://discord.com/terms" rel="noopener">Hizmet Koşulları</a>’nda belirtilen
+        asgari yaş şartını (en az 13 yaş veya ülkenizde geçerli daha yüksek yaş) karşılamanız gerekir. 13 yaşından küçük
+        çocuklardan bilerek veri toplamayız; böyle bir durumu fark etmemiz hâlinde ilgili verileri sileriz.
+      </p>
+
+      <h2>9. Politika değişiklikleri</h2>
+      <p>
+        Bu politikayı zaman zaman güncelleyebiliriz. Güncel sürüm her zaman bu sayfada yayımlanır ve “Son güncelleme” tarihi değiştirilir.
+        Önemli değişiklikleri ZenitMC Discord sunucusunda duyururuz. Değişiklikten sonra Bot’u kullanmaya devam etmeniz,
+        güncel politikayı kabul ettiğiniz anlamına gelir.
+      </p>
+
+      <h2>10. İletişim</h2>
+      <p>
+        Gizlilikle ilgili sorularınız ve veri talepleriniz için:<br>
+        E-posta: <a href="mailto:almodria@zenitmc.com">almodria@zenitmc.com</a><br>
+        Web: <a href="https://zenitmc.com">zenitmc.com</a> ·
+        <a href="https://zenitmc.com/support/tickets">zenitmc.com/support/tickets</a>
+      </p>
+    </article>
+
+    <!-- ===================== ENGLISH ===================== -->
+    <article class="card" id="en" lang="en">
+      <a class="lang-switch" href="#tr">🇹🇷 Türkçe sürüm yukarıda</a>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Effective date: October 26, 2026 · Last updated: October 26, 2026</p>
+
+      <p>
+        This Privacy Policy explains what data the Discord application <strong>ZenitMC 2FA Bot</strong> (the “Bot”),
+        operated by the ZenitMC team (“we”, “us”), processes, how it is used, where it is stored, and what rights you have.
+        The Bot works through the CEP (CapeEslePro) plugin, developed by Buhari Yazılım and running on the ZenitMC Minecraft server; it links
+        your Minecraft account to your Discord account, provides IP address based two-factor authentication (2FA) for linked accounts, and
+        relays chat, logs and commands between the game and Discord. By using the server where the Bot runs, or any of the Bot’s features,
+        you agree to this policy.
+      </p>
+
+      <h2>1. Data we process</h2>
+      <p>The Bot only processes the data needed for account linking, 2FA and server management:</p>
+      <table>
+        <tr><th>Data</th><th>When / from whom</th></tr>
+        <tr>
+          <td><strong>Account link record</strong> — Discord user ID, Minecraft username, link date/time</td>
+          <td>From players who link their account. The link is created by entering the code obtained in game with <code>/hesapesle</code>
+            into the linking form on Discord. The linking code is only used for this pairing.</td>
+        </tr>
+        <tr>
+          <td><strong>2FA status</strong> — whether 2FA mode is on or off</td>
+          <td>From players who turn 2FA on or off on their linked account; also when staff change a player’s 2FA mode.</td>
+        </tr>
+        <tr>
+          <td><strong>IP address</strong></td>
+          <td>For players with 2FA turned on: the IP address used to join the game is compared with the IP addresses registered (verified) for
+            the account. A login from an unregistered IP address is blocked; once that IP is verified by clicking the button in the Discord
+            direct message, it becomes registered for your account.</td>
+        </tr>
+        <tr>
+          <td><strong>Discord membership information</strong> — roles, nickname, server boost status</td>
+          <td>From members who link their account: configured roles are given and the nickname is set in the format
+            <code>Discord name | Minecraft name</code>. If group/role sync is enabled, the role matching your in-game group (e.g. VIP) is given
+            or removed. Whether a linked player has boosted the server may be shown in game.</td>
+        </tr>
+        <tr>
+          <td><strong>Game chat and joins/leaves</strong></td>
+          <td>Messages written in game chat and players joining/leaving the game are relayed to a channel on the ZenitMC Discord server when
+            this feature is on.</td>
+        </tr>
+        <tr>
+          <td><strong>Log messages</strong></td>
+          <td>Account linking actions, commands sent from Discord to the game with <code>/komut</code> and (if enabled) server console logs are
+            relayed to Discord channels that only staff can access. Console logs contain the information shown in the server console.</td>
+        </tr>
+      </table>
+
+      <h3>Discord intents</h3>
+      <p>
+        As required by the CEP plugin setup, the Bot has Discord’s privileged <em>Presence</em>, <em>Server Members</em> and
+        <em>Message Content</em> intents enabled. The Bot uses them for the features described above, such as linking, role/nickname
+        management and commands. None of the documented features store the content of your messages on the Discord server or your online
+        status/activity; no Discord data is recorded other than the data listed in this policy.
+      </p>
+
+      <h3>Direct messages (DMs) we send</h3>
+      <p>
+        While 2FA is on, if someone tries to join the game from an IP address that is not registered for your account, the Bot sends you a
+        direct message containing a verification button. The Bot does not send you marketing or announcement DMs.
+      </p>
+
+      <h3>Data we do not collect</h3>
+      <p>
+        The Bot does not collect your Minecraft or Discord password, e-mail address, payment details or special categories of personal data.
+        2FA does not use an authenticator app, phone number or backup codes; verification is done only with the button in the Discord direct
+        message. We do not use data for advertising, profiling or training AI models.
+      </p>
+
+      <h2>2. How we use the data</h2>
+      <ul>
+        <li>To link your Minecraft account to your Discord account and show your link information to you (<code>/hesabım</code>) and to staff
+          (<code>/hesapsorgula</code>, in-game admin commands);</li>
+        <li>To protect your account against unauthorised logins by only allowing joins from IP addresses you have verified while 2FA is on;</li>
+        <li>To give linked members roles and a nickname, sync in-game groups with Discord roles, and hand out linking rewards;</li>
+        <li>To relay game chat and joins/leaves to Discord and show server information in the Bot’s status;</li>
+        <li>To let staff send commands from Discord to the game and keep a log of these commands;</li>
+        <li>To moderate the server using account linking and command logs, detect abuse, and review reports and appeals.</li>
+      </ul>
+
+      <h2>3. Legal basis</h2>
+      <p>
+        Your data is processed by the ZenitMC team as data controller under the Turkish Personal Data Protection Law No. 6698 (KVKK).
+        The legal grounds are:
+      </p>
+      <ul>
+        <li><strong>Providing the service</strong> (KVKK Art. 5(2)(c)): creating the account link you request, running the 2FA you turn on
+          (IP address check and verification message), giving roles and a nickname, and answering information commands;</li>
+        <li><strong>Legitimate interest</strong> (KVKK Art. 5(2)(f)): keeping accounts and the community safe, moderation, preventing abuse,
+          relaying game chat to Discord, and keeping logs to review reports and appeals.</li>
+      </ul>
+      <p>
+        For users in the European Union, the corresponding grounds are GDPR Art. 6(1)(b) and Art. 6(1)(f).
+      </p>
+
+      <h2>4. Storage and security</h2>
+      <ul>
+        <li><strong>Plugin database:</strong> Account link records, 2FA status and the IP addresses registered for 2FA are stored in the CEP
+          plugin’s database on the ZenitMC Minecraft server infrastructure that we manage. Depending on the plugin setting, this database is a
+          YAML file on the server or a MySQL database that we manage.</li>
+        <li><strong>Discord channels:</strong> Relayed game chat, joins/leaves, account linking logs, command logs and console logs are posted
+          as Discord messages to channels on the ZenitMC Discord server and are stored on Discord’s infrastructure. Only staff can access the
+          log channels.</li>
+        <li><strong>Discord membership:</strong> Roles and the nickname are assigned to your membership on Discord.</li>
+        <li><strong>Plugin API:</strong> The CEP plugin provides an API that lets other plugins installed on the ZenitMC Minecraft server read
+          link status, Discord ID, link time and 2FA status. This information is only used by plugins running on our server, for the purposes
+          in this policy.</li>
+      </ul>
+      <p>
+        Access to the plugin database, the log channels and the server that runs the Bot is limited to the Bot administrators and the staff
+        team. Bot credentials are kept secret and never published. While we take reasonable technical and organisational measures, no system
+        can be guaranteed to be 100% secure. We <strong>do not sell or rent</strong> your data and do not share it with third parties for
+        advertising.
+      </p>
+
+      <h2>5. Data retention</h2>
+      <ul>
+        <li><strong>Account link record, 2FA status and registered IP addresses:</strong> Kept for as long as your account stays linked.
+          They are deleted by staff when the link is removed or when you request deletion. The Bot does not delete these records automatically
+          after a set period.</li>
+        <li><strong>Messages and logs in Discord channels:</strong> The Bot <strong>does not delete these automatically</strong>. They are kept
+          for as long as they are needed for moderation, server security and reviewing reports/appeals, and are deleted manually by staff when
+          you request deletion or when they are no longer needed.</li>
+        <li><strong>Roles and nickname:</strong> Stay on your Discord membership; they are removed by staff or by Discord when the link is
+          removed or when you leave the server.</li>
+        <li><strong>Verification messages:</strong> Stay in your own DMs; you can delete them at any time.</li>
+        <li>If the Bot is removed from the ZenitMC server or the service is discontinued, the plugin data and related logs will be deleted
+          within a reasonable time.</li>
+      </ul>
+
+      <h2>6. Data deletion and your rights</h2>
+      <p>
+        Under Article 11 of KVKK you have the right to learn whether your data is processed, to request information, to ask for your data to
+        be corrected or deleted, and the other rights listed in the law (including your rights under the GDPR if you are in the EU).
+        You can see your own link information on Discord with <code>/hesabım</code> and turn off 2FA in game with <code>/2fa off</code>.
+        For other requests:
+      </p>
+      <ol>
+        <li>E-mail <a href="mailto:almodria@zenitmc.com">almodria@zenitmc.com</a> or contact the administrators on the ZenitMC Discord server.</li>
+        <li>Include your Discord username, your <strong>Discord user ID</strong> and your <strong>Minecraft username</strong>.</li>
+        <li>Requests are handled manually. After verifying your request, we will remove your account link and your related data in the plugin
+          database (including 2FA status and registered IP addresses), delete the log messages related to you in the Discord log channels
+          within <strong>30 days</strong> at the latest, and let you know.</li>
+      </ol>
+      <p>
+        Leaving the server does not automatically delete the logs; please use the process above. We may keep the minimum information strictly
+        required for an ongoing moderation case, to prevent abuse or to meet legal obligations, only for as long as necessary. Data that Discord
+        keeps in its own systems is subject to Discord’s policies.
+      </p>
+
+      <h2>7. Third parties</h2>
+      <ul>
+        <li><strong>Discord:</strong> The Bot runs on the Discord platform and all interactions go through the Discord API. Logs posted to
+          Discord channels are stored on Discord’s infrastructure and may be held on servers outside Türkiye. Discord’s handling of your data is
+          governed by the <a href="https://discord.com/privacy" rel="noopener">Discord Privacy Policy</a>.</li>
+        <li><strong>CEP plugin (Buhari Yazılım):</strong> The CEP plugin that powers the Bot, and the required CEP-DiscordAPI component, are
+          developed by Buhari Yazılım and run on the ZenitMC Minecraft server that we manage. The ZenitMC team runs the Bot and manages the
+          data; we do not share your data with the plugin developer.</li>
+        <li><strong>ZenitMC Minecraft server and its plugins:</strong> Data from the Minecraft server we operate (e.g. in-game group, number
+          of players online) is used for account linking, 2FA, group/role sync, rewards and the Bot’s status. Server information shown in the
+          Bot’s status may be retrieved through the PlaceholderAPI plugin.</li>
+        <li><strong>Hosting:</strong> The Bot and the plugin database run on server infrastructure that we manage.</li>
+      </ul>
+      <p>No other third-party analytics, advertising or data processing services are used.</p>
+
+      <h2>8. Age requirement</h2>
+      <p>
+        To use the Bot you must meet the minimum age required by Discord’s <a href="https://discord.com/terms" rel="noopener">Terms of Service</a>
+        (at least 13, or the higher minimum age in your country). We do not knowingly collect data from children under 13; if we become
+        aware of such data, we will delete it.
+      </p>
+
+      <h2>9. Changes to this policy</h2>
+      <p>
+        We may update this policy from time to time. The current version is always published on this page and the “Last updated” date is
+        changed. Significant changes will be announced on the ZenitMC Discord server. Continuing to use the Bot after a change means you
+        accept the updated policy.
+      </p>
+
+      <h2>10. Contact</h2>
+      <p>
+        For privacy questions and data requests:<br>
+        E-mail: <a href="mailto:almodria@zenitmc.com">almodria@zenitmc.com</a><br>
+        Web: <a href="https://zenitmc.com">zenitmc.com</a> ·
+        <a href="https://zenitmc.com/support/tickets">zenitmc.com/support/tickets</a>
+      </p>
+    </article>
+  </main>
+
+  <footer class="site">
+    <div class="inner">
+      © 2026 ZenitMC · <a href="terms.html">Hizmet Koşulları / Terms</a> · <a href="index.html">Ana sayfa / Home</a>
+    </div>
+  </footer>
+</body>
+</html>
